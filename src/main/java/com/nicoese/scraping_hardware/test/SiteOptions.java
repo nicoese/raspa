@@ -18,7 +18,8 @@ public class SiteOptions {
     private Boolean isClassName;
     private By by;
     private List<String> chromeOptions;
-
+    private Boolean isPageLoadStrategyNone;
+    private String siteName;
 
 
     public SiteOptions(String baseUrl,
@@ -27,7 +28,9 @@ public class SiteOptions {
                        String selectorPrice,
                        String selectorName,
                        Boolean isClassName,
-                       List<String> chromeOptions) {
+                       List<String> chromeOptions,
+                       Boolean isPageLoadStrategyNone,
+                       String siteName) {
         this.baseUrl = baseUrl;
         this.query = query;
         this.selector = selector;
@@ -35,6 +38,8 @@ public class SiteOptions {
         this.selectorName = selectorName;
         this.chromeOptions = chromeOptions;
         this.by = isClassName ? By.className(selector) : By.cssSelector(selector);
+        this.isPageLoadStrategyNone = isPageLoadStrategyNone;
+        this.siteName = siteName;
     }
 
 //    public String getParam() {

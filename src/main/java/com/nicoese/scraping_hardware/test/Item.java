@@ -10,11 +10,17 @@ public class Item {
     private String img;
     private String price;
     private String name;
+    private String site;
 
-    public Item(String href, String img, String price, String name) {
+    public Item(String href,
+                String img,
+                String price,
+                String name,
+                String site) {
         this.href = href;
         this.img = img;
         this.price = price;
         this.name = name;
+        this.site = site;
     }
 }
