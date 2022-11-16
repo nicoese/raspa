@@ -9,11 +9,11 @@
 
 `<GET>` : <https://nice-hardware.tk/search>
 
-####Query Params
+#### Query Params
 
 `<query>` : Nombre del producto por ej: 'Disco SSD Kingston'
 `<items>` : Cantidad de items a buscar por sitio, por ej: '5'
 
-###URL ejemplo
+### URL ejemplo
 
 > https://nice-hardware.tk/search?query=i7&items=2
