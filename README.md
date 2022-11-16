@@ -12,6 +12,7 @@
 #### Query Params
 
 `<query>` : Nombre del producto por ej: 'Disco SSD Kingston'
+
 `<items>` : Cantidad de items a buscar por sitio, por ej: '5'
 
 ### URL ejemplo
